@@ -83,6 +83,12 @@ const CommonStyles = createGlobalStyle`
 		font-size: inherit;
 		font-weight: 400;
 	}
+	
+	#__next{
+		min-height:100% ;
+		display:flex;
+		flex-direction: column;
+	}
 
 `
 
